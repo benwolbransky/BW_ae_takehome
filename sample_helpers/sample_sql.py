@@ -2,7 +2,7 @@ import sqlite3
 import pandas as pd
 from glob import glob
 
-class sample_Tables:
+class sample_tables:
     def __init__(self, csv_path = 'CSV_data/', db_path = 'Database/sample.db'):
         # class storage for paths and sqlite objects
         self.db_path = db_path
